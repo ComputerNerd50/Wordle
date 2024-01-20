@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 5px;
+  padding: 3px;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+}
+
+.txthamburger:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 5vh;
+}
+
+p {
+  font-size: 25px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+header {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+  font-size: 3vh;
+  height: 6vh;
+  width: 175px;
+  border: none;
+  box-shadow: 5px;
+  background-color: rgb(171, 166, 166, .45);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+  
+}
+
+.headerList {
+  text-align: center;
+  
+}
+
+
+.word-guess {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  border-radius: 30px;
+  height: 79vh;
+  border: 1000px solid black;
+}
+
+.headerList {
+  padding: 0px;
+}
+
+
+.word-guess {
+ border: red 50px;
+}
+
+.letters {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
